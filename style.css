@@ -1,0 +1,36 @@
+body {
+    background: #050505 !important;
+}
+
+.title {
+    font-size: 5rem;
+    margin-top: 10rem;
+}
+.text-home {
+    font-size: 2.8rem;
+}
+.icon {
+    margin-top: 8rem;
+}
+.git,.linkedin,.instagram {
+    cursor: pointer;
+}
+.git:hover,.linkedin:hover,.instagram:hover {
+    transition-duration: 500ms;
+    transform:translateY(-10px);
+}
+.git:hover {
+    color: #424446 !important
+}
+.linkedin:hover {
+    color: #2279fc !important;
+}
+.instagram:hover {
+    color: #fd0d99 !important;
+}
+.container-sobre {
+    margin-top: 3rem;
+}
+.title-sobre {
+    font-size: 4rem
+}

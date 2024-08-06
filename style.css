@@ -28,9 +28,47 @@ body {
 .instagram:hover {
     color: #fd0d99 !important;
 }
-.container-sobre {
-    margin-top: 3rem;
-}
 .title-sobre {
     font-size: 4rem
+}
+.div-sobre {
+    display: flex;
+    margin-top: 2rem;   
+}
+.img-sobre {
+    width: 600px;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+.div-habilidades {
+    margin-top: 2.7rem;
+}
+.habilidades {
+    display: flex;
+}
+.mensagem-habilidades {
+    width: 500px;
+}
+.icons-habilidades {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+.icons {
+    width: 33%;
+    padding-left: 50px;
+    margin-top: 10px;
+}
+.html,.css,.react {
+    margin-left: 25px;
+}
+.bootstrap {
+    padding-top: 20px;
+}
+.javascript,.materialize {
+    margin-left: 10px;
+}
+.i:hover{
+    color: #959697 !important;
 }

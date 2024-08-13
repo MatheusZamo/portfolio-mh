@@ -1,7 +1,7 @@
 body {
     background: #050505 !important;
+    font-family: "Roboto Slab", serif !important;
 }
-
 .title {
     font-size: 5rem;
     margin-top: 10rem;
@@ -10,7 +10,7 @@ body {
     font-size: 2.8rem;
 }
 .icon {
-    margin-top: 8rem;
+    margin-top: 9rem;
 }
 .git,.linkedin,.instagram {
     cursor: pointer;
@@ -71,4 +71,24 @@ body {
 }
 .i:hover{
     color: #959697 !important;
+}
+.title-servicos {
+    font-size: 3.5rem;
+}
+.div-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cards {
+    background-color: #151515 !important;
+    border-radius: 30px !important;
+}
+.icons-servicos {
+    margin-left: 7.5rem;
+    margin-top: 3rem;
+}
+.card-img {
+    border-radius: 30px !important;
+    height: 230px;
 }

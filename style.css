@@ -91,6 +91,9 @@ body {
     margin-left: 7.5rem;
     margin-top: 3rem;
 }
+.div-contact{
+    display: flex;
+}
 .card-img {
     border-radius: 30px !important;
     height: 230px;
@@ -121,11 +124,6 @@ body {
 
 
 
-
-
-
-
-
 ::-webkit-scrollbar-track {
     background-color: #212121;
     border-radius:10px;
@@ -140,3 +138,61 @@ body {
     background:#065ee2ed;
     border-radius:10px;
 }
+
+
+
+@media (max-width:800px){
+    .title{
+        margin-top:13rem;
+        font-size: 4rem;
+    }
+    .text-home {
+        font-size: 1.8rem;
+    }
+    .icon {
+        margin-top: 13rem;
+    }
+    .title-sobre {
+        font-size: 3rem
+    }
+    .div-sobre {
+        display: block;
+        margin-top: 2rem;   
+    }
+    .habilidades {
+        display: inline;
+    }
+    .img-sobre {
+        width: 300px;
+        margin-left: 20px;
+    }
+    .mensagem-habilidades {
+        width: 100%;
+    }
+    .icons-habilidades {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .icons {
+        padding-left: 15px;
+    }
+    .title-servicos {
+        font-size: 3rem;
+    }
+    .icons-servicos {
+        margin-left: 6.3rem;
+    }
+    .div-contact {
+        display: block;
+    }
+    .subtitle-contact {
+        text-align: center;
+    }
+    .text-contact {
+        text-align: center;
+    }
+    .mobile {
+        display: none
+    }
+}
+
